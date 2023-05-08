@@ -146,6 +146,16 @@ footer {
 }
 
 /* information section */
+.info-container {
+  text-align: center;
+}
+
+.info-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .info-image {
   width: 100%;
 }
