@@ -4,33 +4,36 @@
 <head lang="en">
   <meta charset="utf-8">
   <title>Odin Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,800;1,300" rel="stylesheet">  
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
   <div>
-    <header>
+    <header class="hero">
       <nav>
         <ul>
           <li>
-            <span>Header Logo</span>
+            <span class="logo">Header Logo</span>
           </li>
           <li>
             <ul>
-              <li>header link one</li>
-              <li>header link two</li>
-              <li>header link three</li>
+              <li class="nav-item">header link one</li>
+              <li class="nav-item">header link two</li>
+              <li class="nav-item">header link three</li>
             </ul>
           </li>
         </ul>
       </nav>
       <section>
         <div>
-          <h1>This website is awesome</h1>
-          <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is
+          <h1 class="hero-main-text">This website is awesome</h1>
+          <p class="hero-secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is
             lower
             contrast</p>
-          <button>Sign up</button>
+          <button class="sign-up-btn">Sign up</button>
         </div>
         <div>
           <img alt="placeholder-image">
@@ -39,7 +42,7 @@
     </header>
     <main>
       <section>
-        <h2>Some random information.</h2>
+        <h2 class="information">Some random information.</h2>
         <ul>
           <li>
             <div>placeholder-image</div>
@@ -60,18 +63,18 @@
         </ul>
       </section>
       <section>
-        <p>This is an inpiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
+        <p class="quote">This is an inpiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
           people
           will actually read it. Who knows? All I know is that it lok nice.</p>
         <span>- Thor, God of Thunder</span>
       </section>
       <section>
-        <div>
+        <div class="call-to-action">
           <div>
             <span>Call to action! It's time!</span>
             <span>Sign up for our product by clicking that button right over there!</span>
           </div>
-          <button>Sign up</button>
+          <button class="sign-up-btn">Sign up</button>
         </div>
       </section>
     </main>
