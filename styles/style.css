@@ -98,4 +98,42 @@ footer {
   gap: 25px;
 }
 
+/* hero section */
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1400px;
+  align-items: stretch;
+  justify-content: center;
+  gap: 25px;
+  padding: 100px 30px;
+}
+
+.hero > div:first-child {
+  flex-grow: 1;
+  flex-basis: 50%;
+  padding-bottom: 25px;
+}
+
+.hero > div:last-child {
+  flex-grow: 1;
+  flex-shrink: .5;
+  flex-basis: 45%;
+}
+
+.hero > div > img {
+  width: 100%;
+  min-width: 500px;
+}
+
+.hero-main-text {
+  margin: 0;
+  margin-bottom: 28px;
+}
+
 /***** flex alignment *****/
