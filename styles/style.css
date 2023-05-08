@@ -4,14 +4,20 @@ ul {
   padding: 0;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-align: center;
 }
+
+/***** color and font *****/
 
 .hero,
 footer {
@@ -63,3 +69,33 @@ footer {
 .call-to-action {
   background: #3882F6;
 }
+
+/***** color and font *****/
+/***** flex alignment *****/
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  flex-basis: 1400px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 30px;
+  padding: 15px 30px;
+}
+
+.navbar > li:last-child {
+  flex-grow: 1;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+/***** flex alignment *****/
