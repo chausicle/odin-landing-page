@@ -147,16 +147,33 @@ footer {
 
 /* information section */
 .info-container {
+  padding-bottom: 50px;
+}
+
+.info-header {
   text-align: center;
 }
 
 .info-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
+  padding: 0 50px;
+}
+
+.info-list > li {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 300px;
 }
 
 .info-image {
+  border: .5px solid gainsboro;
+  border-radius: 10px;
   width: 100%;
 }
 
