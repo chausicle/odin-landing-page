@@ -123,6 +123,12 @@ footer {
   padding-bottom: 25px;
 }
 
+.sign-up-btn {
+  border: none;
+  padding: 6px 22px;
+  border-radius: 5px;
+}
+
 .hero > div:last-child {
   flex-grow: 1;
   flex-shrink: .5;
