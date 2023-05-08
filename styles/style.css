@@ -50,13 +50,13 @@ footer {
   color: white;
 }
 
-.information,
+.info-header,
 .quote {
   color: #1F2937;
   font-size: 36px;
 }
 
-.information {
+.info-header {
   font-weight: 800;
 }
 
