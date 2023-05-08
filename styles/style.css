@@ -145,4 +145,9 @@ footer {
   margin-bottom: 28px;
 }
 
+/* information section */
+.info-image {
+  width: 100%;
+}
+
 /***** flex alignment *****/
