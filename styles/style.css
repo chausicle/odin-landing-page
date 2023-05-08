@@ -73,6 +73,12 @@ footer {
 /***** color and font *****/
 /***** flex alignment *****/
 
+.navbar,
+.hero {
+  flex-basis: 1400px;
+}
+
+/* navbar section */
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -80,7 +86,6 @@ footer {
 
 .navbar {
   display: flex;
-  flex-basis: 1400px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -107,8 +112,6 @@ footer {
 .hero {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 1400px;
-  align-items: stretch;
   justify-content: center;
   gap: 25px;
   padding: 100px 30px;
