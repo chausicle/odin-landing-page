@@ -208,4 +208,9 @@ footer {
   border: 1px solid white;
 }
 
+footer {
+  padding: 35px 50px;
+  text-align: center;
+}
+
 /***** flex alignment *****/
