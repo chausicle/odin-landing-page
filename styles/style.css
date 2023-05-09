@@ -204,4 +204,8 @@ footer {
   margin: 0 0 5px;
 }
 
+.call-to-action > button.sign-up-btn {
+  border: 1px solid white;
+}
+
 /***** flex alignment *****/
