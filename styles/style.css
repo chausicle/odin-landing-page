@@ -71,6 +71,7 @@ footer {
 
 .call-to-action {
   background: #3882F6;
+  color: white;
 }
 
 /***** color and font *****/
@@ -187,6 +188,15 @@ footer {
 .quote-container > span {
   align-self: flex-end;
   font-weight: bold;
+}
+
+/* call to action section */
+.call-to-action {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 150px;
+  padding: 50px 80px;
 }
 
 /***** flex alignment *****/
