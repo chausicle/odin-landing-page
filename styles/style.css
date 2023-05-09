@@ -194,9 +194,14 @@ footer {
 .call-to-action {
   border-radius: 5px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 100px 150px;
   padding: 50px 80px;
+}
+
+.call-to-action h4 {
+  margin: 0 0 5px;
 }
 
 /***** flex alignment *****/
