@@ -194,8 +194,10 @@ footer {
 .call-to-action {
   border-radius: 5px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 25px;
   margin: 100px 150px;
   padding: 50px 80px;
 }
