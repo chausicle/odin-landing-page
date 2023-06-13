@@ -78,7 +78,8 @@ footer {
 /***** flex alignment *****/
 
 .navbar,
-.hero {
+.hero,
+.info-list {
   flex-basis: 1400px;
 }
 
@@ -154,6 +155,11 @@ footer {
   text-align: center;
 }
 
+.info-list-container {
+  display: flex;
+  justify-content: center;
+}
+
 .info-list {
   display: flex;
   flex-wrap: wrap;
@@ -165,10 +171,10 @@ footer {
 .info-list > li {
   display: flex;
   flex-grow: 1;
-  flex-basis: 300px;
+  flex-basis: 325px;
   flex-direction: column;
   align-items: flex-start;
-  min-width: 300px;
+  min-width: 325px;
 }
 
 .info-image {
