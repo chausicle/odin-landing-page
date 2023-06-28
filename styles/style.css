@@ -207,14 +207,20 @@ footer {
 }
 
 /* call to action section */
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+}
+
 .call-to-action {
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
+  flex-basis: 1240px;
   align-items: center;
   justify-content: space-between;
   gap: 25px;
-  margin: 100px 150px;
+  margin: 0px 30px 100px;
   padding: 50px 80px;
 }
 
