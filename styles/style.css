@@ -186,13 +186,23 @@ footer {
 /* quote section */
 .quote-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   margin: 100px 0;
-  padding: 100px 150px;
+  padding: 100px 50px;
 }
 
-.quote-container > span {
-  align-self: flex-end;
+.quote-container > div:first-child {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  flex-basis: 1400px;
+}
+
+.quote {
+  flex-grow: 1;
+}
+
+.quote-container span {
   font-weight: bold;
 }
 
